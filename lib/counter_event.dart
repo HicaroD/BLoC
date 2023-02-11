@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 abstract class CounterEvent {}
 
 class IncrementCounterEvent implements CounterEvent {}

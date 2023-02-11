@@ -44,7 +44,6 @@ class _MyHomePageState extends State<MyHomePage> {
           stream: _bloc.counter,
           initialData: 0,
           builder: (BuildContext context, AsyncSnapshot<int> snapshot) {
-            print(snapshot.data);
             return Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
